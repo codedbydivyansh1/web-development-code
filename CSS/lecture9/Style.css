@@ -1,0 +1,38 @@
+h1{
+    color: red;
+    background-color: yellow;
+}
+
+#container{
+    border: 1px solid black;
+    width: 700px;
+    height: 400px;
+    background-image: url(https://cdn.pixabay.com/photo/2025/06/15/21/04/golden-retriever-puppy-amber-9661916_640.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;  
+    /* auto(original),cover,contain */
+
+}
+p{
+    /* normal */
+    /* color: white; */
+    /* hex */
+    /* color: #bfff00; */
+    /* rgb */
+    /* color: rgba(255, 0, 0, 1) ; */
+    /* hsl */
+    /* color: hsl(359, 51%, 20%); */
+    color: red;
+}
+body{
+    /* background:linear-gradient(to right,red,yellow); */
+      /* background: radial-gradient(50% 50%,red,green,yellow); */
+      /* background: conic-gradient(red,green); */
+      
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+

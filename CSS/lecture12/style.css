@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: brder-box; */
+}
+html{
+    font-size: 60px;
+}
+
+
+.parent{
+    /* border: 2px solid black; */
+    background-color: red;
+    /* width: 400px;
+    height: 500px; */
+    /* width: 500px;
+    height: 700px; */
+    width: 50vw;
+    height: 50vh;
+    font-size: 30px;
+}
+.child{
+    font-size: 1rem; 
+    
+    background-color: green;
+    height: 60%; 
+    width: 50%;
+
+}
