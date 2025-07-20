@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    /* border: 1px solid black; */
+    background-image: url(3409297.jpg);
+    background-size: cover;
+}
+.loginpage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    width: 40%;
+    height: 90%;
+    border-radius:10px ;
+    background-color: #403f5e7c;
+    backdrop-filter: blur(10px);
+}
+.logindetails{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+    /* border-radius: 100px; */
+    gap: 20px;
+}
+
+input[type="email"],input[type="password"]{
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+    
+    
+    /* background:linear-gradient(#4b6cb7,#182848); */
+    font-size: 20px;
+}
+
+.forgot{
+    font-size: 20px;
+    display: flex;
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    background: linear-gradient(90deg,rgba(194, 194, 194, 0),blue,rgba(143, 133, 133, 0.479));
+}
+.forgot:hover{
+    transition: smooth;
+    background: linear-gradient(transparent);
+}
+
+button{
+    padding: 20px;
+    font-size: 10px;
+    border: none;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    
+}
